@@ -47,7 +47,7 @@ def n_most_likely_classes(initial_features, trainer, extractor, id2label, n=3):
     prob_dict = {class_name: prob for class_name, prob in zip(predicted_labels, pred_label_probs)}
     
     sorted_items = sorted(prob_dict.items(), key=lambda item: item[1], reverse=True)
-    top_n_items = sorted_items[:n] # return this for nestted list
+    top_n_items = sorted_items[:n] # return this for nested list
     top_n_dict = dict(top_n_items)
 
     return top_n_dict
