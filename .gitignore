@@ -1,0 +1,11 @@
+/X.pt
+/__pycache__
+/audio_files
+/output_clips
+/split_test_files
+/split_train_files
+/test_audio
+/test_images
+/tmp_trainer
+/train_images
+/y.pt
